@@ -298,14 +298,16 @@ header .header-container h1 {
 
 /* clients */
 
-.clients .clients-container p {
+.clients .clients-container a {
   font-family: 'Bigilla';
+  text-decoration: none;
+  cursor: pointer;
   font-size: 80px;
   line-height: 100px;
 }
 
 @media (max-width: 900px) {
-  .clients .clients-container p {
+  .clients .clients-container a {
     font-size: 36px;
     line-height: 50px;
     text-align: justify;
